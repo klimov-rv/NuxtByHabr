@@ -9,6 +9,10 @@ npm install
 ```
 npm run serve
 ```
+### Fake API
+```
+json-server --watch db.json
+```
 
 ### Compiles and minifies for production
 ```
