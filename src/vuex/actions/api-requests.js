@@ -1,8 +1,10 @@
 import axios from "axios";
+// import data from './data.json'
+//   return axios('https://le-vite.herokuapp.com/products', {
 
 export default {
   GET_PRODUCTS_FROM_API({commit}) {
-    return axios('https://le-vite.herokuapp.com/products', {
+    return axios('http://localhost:3000/products', {
       method: "GET"
     })
       .then((products) => {
